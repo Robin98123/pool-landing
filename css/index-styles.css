@@ -1,9 +1,13 @@
+/* global styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 
 
 *{
     margin: 0%;
 }
+
+/* banenrs styles */
 
 .banner-principal{
     background-image: url("../img/principal-banner.jpg");
@@ -27,6 +31,8 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(3px);
 }
+
+/*navar styles*/
 
 .navar{
     display: flex;
@@ -52,27 +58,56 @@
 
 .navigation-var li:hover{
     color: #F3C75D;
-    text-decoration-line: unset;
 }
 
-.navigation-var button{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #26436F;
-    display: flex;
-    gap: 0.7em;
-    align-items: center;
+.navigation-var li::after{
+    content: "";
+    height: 2px;
+    width: 0;
     background-color: #F3C75D;
-    padding-left: 1.8rem;
-    padding-right: 1.8rem;
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-    border-radius: 15px;
-    border: none;
-    border: 1px solid #ffffff;
+    display: block;
+    transition: all 300ms;
+    
 }
 
-h1{
-    color: aqua;
+.navigation-var li:hover::after{
+    width: 100%;
+    filter: drop-shadow(2px 2px 2px #000);
+    
 }
+
+                /*button styles*/
+
+                .button-asesoria{
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #26436F;
+                    display: flex;
+                    gap: 0.7em;
+                    align-items: center;
+                    background-color: #F3C75D;
+                    padding-left: 1.8rem;
+                    padding-right: 1.8rem;
+                    padding-top: 0.4rem;
+                    padding-bottom: 0.4rem;
+                    border-radius: 15px;
+                    border: none;
+                    border: 1px solid #ffffff;
+                    cursor: pointer;
+                }
+
+                .button-asesoria:hover{
+                    background-color: #182e4f;
+                    border: 2px solid #ffffff;
+                    color: white;
+                }
+
+
+                h1{
+                    color: aqua;
+                }
+
+
+/* CTA banner styles*/
+
