@@ -8,22 +8,9 @@
 }
 
                 /*------------------
-                    banenrs styles
+                    Navar styles
                 ------------------*/
 
-.banner-principal{
-    background-image: url("../img/principal-banner.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    align-content: center;
-}
-
-.separated-top{
-    height: 5px;
-    color: rgba(38, 67, 111, 0);
-}
 .navar-content{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
