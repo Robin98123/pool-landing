@@ -84,6 +84,7 @@
     border-radius: 40px 0px 0px 0px;
     margin-top: -60px;
     position: relative;
+    
 }
 
                 /*------------------
@@ -98,6 +99,8 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    position: relative;
+                    z-index: 8;
                 }
                 
                                 /*------------------
@@ -176,13 +179,14 @@
                                     border: 2px solid #ffffff;
                                     color: white;
                                 }
-.info-container{
+.info-container {
     display: flex;
     justify-content: space-between;
     margin-left: 5rem;
     margin-right: 5rem;
     padding-top: 350px;
     position: relative;
+    margin-bottom: 2rem;
 }
 .contact-info_container{
     display: flex;
