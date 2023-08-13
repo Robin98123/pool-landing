@@ -913,7 +913,7 @@ font-family: 'Raleway', sans-serif;
     }
 
     #img-descrption-section{
-        margin-top: -400px;
+        margin-top: -380px;
         margin-bottom: 100px;
         width: 200px;
     }
@@ -1008,6 +1008,17 @@ font-family: 'Raleway', sans-serif;
     }
 }
 
+
+@media (min-width: 1341px) {
+    .description-container{
+        margin-top: -190px;
+    }
+
+   .galery-grid{
+    width: 50%;
+    margin-left: -350px;
+   }
+}
 
 
 

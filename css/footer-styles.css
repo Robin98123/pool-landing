@@ -12,13 +12,12 @@
                 ------------------*/
 
 .footer-container{
-    margin-top: 4rem;
     display: flex;
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
+
 }
 .footer-main{
     display: flex;
@@ -30,7 +29,8 @@
     height: 130px;
     border-radius: 15px;
     background-color: white;
-    z-index: 1;
+    z-index: 8;
+    position: absolute;
 }
 
 .img-pool{
@@ -82,7 +82,7 @@
     width: 100%;
     height: 180px;
     border-radius: 40px 0px 0px 0px;
-    margin-top: -60px;
+    margin-top: 150px;
     position: relative;
     
 }
@@ -100,7 +100,7 @@
                     align-items: center;
                     justify-content: center;
                     position: relative;
-                    z-index: 8;
+                    z-index: 2;
                 }
                 
                                 /*------------------
@@ -110,9 +110,11 @@
                 .navar-footer{
                     display: flex;
                     justify-content: space-between;
+                    position: relative;
                 }
                 
                 .navigation-var_footer{
+                    margin-top: 1rem;
                     display: flex;
                     align-items: center;
                     gap: 3rem;
@@ -184,7 +186,7 @@
     justify-content: space-between;
     margin-left: 5rem;
     margin-right: 5rem;
-    padding-top: 350px;
+    padding-top: 30px;
     position: relative;
     margin-bottom: 2rem;
 }
@@ -230,4 +232,69 @@
 .social-icons_footer button{
     background-color: transparent;
     border: none;
+}
+
+
+@media (max-width: 1000px){
+    .navar-footer{
+        display: none;
+    }
+
+    .navar-footercontainer{
+        height: 150px;
+    }
+
+    .img-pool{
+        height: 100px;
+        margin-left: 0px;
+    }
+
+    .footer-main{
+        width: 600px;
+        gap: 0px;
+    }
+
+    .input-container input{
+        width: 200px;
+    }
+
+    .info-container::placeholder{
+        font-size: 10px;
+    }
+
+    .register-mail_container h4{
+        font-size: 16px;
+    }
+
+    .register-mail_container p{
+        font-size: 10px;
+    }
+
+    .info-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 500px){
+    .footer-main{
+        flex-direction: column;
+    }
+
+    .contact-info_container{
+        flex-direction: column;
+    }
+
+    .logo-redesicons_container{
+        flex-direction: column;
+    }
+
+    .footer-main{
+        width: 370px;
+        height: 210px;
+        gap: 0px;
+    }
 }
