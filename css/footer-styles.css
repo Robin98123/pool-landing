@@ -64,7 +64,7 @@
     gap: 0.5rem;
 }
 
-.input-container input{
+form input{
     width: 300px;
     border-radius: 5px;
     border: 2px solid #C7C7C7;
@@ -72,7 +72,7 @@
 
 .input-container::placeholder{
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 10px;
     color: #BCBCBC;
 }
@@ -127,7 +127,7 @@
                 .navigation-var_footer a{
                     font-family: 'Raleway', sans-serif;
                     font-weight: 600;
-                    font-size: 16px;
+                    font-size: 14px;
                     color: white;
                     cursor: pointer;
                     text-decoration: none;
@@ -158,11 +158,11 @@
                                 ------------------*/
                 
                                 .button-footer{
+                                    width: 30%;
                                     font-family: 'Raleway', sans-serif;
                                     font-weight: 700;
                                     font-size: 16px;
                                     color: #182e4f;
-                                    display: flex;
                                     gap: 0.7em;
                                     align-items: center;
                                     padding-left: 1.8rem;
@@ -171,12 +171,38 @@
                                     padding-bottom: 0.4rem;
                                     border-radius: 15px;
                                     border: none;
-                                    border: 1px solid #ffffff;
+                                    border: 2px solid #26436F;
                                     cursor: pointer;
                                     box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.5);
                                 }
                 
                                 .button-footer:hover{
+                                    background-color: #182e4f;
+                                    border: 2px solid #ffffff;
+                                    color: white;
+                                }
+
+                                .button-footer_asesoria{
+                                    width: 30%;
+                                    font-family: 'Raleway', sans-serif;
+                                    font-weight: 700;
+                                    font-size: 12px;
+                                    display: flex;
+                                    color: #182e4f;
+                                    gap: 0.7em;
+                                    align-items: center;
+                                    padding-left: 1.8rem;
+                                    padding-right: 1.8rem;
+                                    padding-top: 0.4rem;
+                                    padding-bottom: 0.4rem;
+                                    border-radius: 15px;
+                                    border: none;
+                                    border: 2px solid #26436F;
+                                    cursor: pointer;
+                                    box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.5);
+                                }
+
+                                .button-footer_asesoria:hover{
                                     background-color: #182e4f;
                                     border: 2px solid #ffffff;
                                     color: white;
@@ -236,6 +262,10 @@
 
 
 @media (max-width: 1000px){
+    .button-footer{
+        width: 30px;
+    }
+    
     .navar-footer{
         display: none;
     }
@@ -255,7 +285,7 @@
     }
 
     .input-container input{
-        width: 200px;
+        width: 150px;
     }
 
     .info-container::placeholder{
@@ -280,6 +310,10 @@
 }
 
 @media (max-width: 500px){
+    .button-footer{
+        width: 60px;
+    }
+
     .footer-main{
         flex-direction: column;
     }
