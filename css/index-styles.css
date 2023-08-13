@@ -1011,13 +1011,19 @@ font-family: 'Raleway', sans-serif;
 
 @media (min-width: 1341px) {
     .description-container{
-        margin-top: -190px;
+        margin-top: 0;
     }
 
    .galery-grid{
     width: 50%;
     margin-left: -350px;
    }
+}
+
+@media (min-width: 1400px) {
+    .description-container{
+        margin-top: -50px;
+    }
 }
 
 
