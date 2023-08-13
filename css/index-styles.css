@@ -712,6 +712,12 @@ font-family: 'Raleway', sans-serif;
     }
 }
 
+@media (min-width: 1101) {
+    .description-container{
+        margin-top: 0px;
+    }
+}
+
 @media (max-width: 1000px){
     .navigation-var{
  display: none;
@@ -1008,22 +1014,15 @@ font-family: 'Raleway', sans-serif;
     }
 }
 
-
-@media (min-width: 1341px) {
-    .description-container{
-        margin-top: 0;
-    }
-
-   .galery-grid{
-    width: 50%;
-    margin-left: -350px;
-   }
-}
-
 @media (min-width: 1400px) {
     .description-container{
         margin-top: -50px;
     }
+
+    .galery-grid{
+        width: 50%;
+        margin-left: -350px;
+       }
 }
 
 
