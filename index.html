@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index-styles.css">
     <link rel="stylesheet" href="./css/footer-styles.css">
+    <link rel="stylesheet" href="./css/slider-styles.css">
+    <link rel="stylesheet" href="./css/navar-responsive_styles.css">
     <title>Pool inicio</title>
 </head>
 <body>
@@ -18,18 +20,48 @@
             <!-- navvar -->
 
             <div class="navar-content">
+
                 <nav class="navar">
                     <img src="./img/logo-withe.svg">
+
+                    <!---desplegable menu-->
+                  
+                    <div class="menu-lateral_container">
+                
+                        <a href="#popup1"><img src="./img/menu-icon.svg" id="icon-menu"></a>
+                        
+                        <div class="popup_contianer">
+                            <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <ul class="desplegable-link_container">
+                                    <li class="desplegable-link"><a href="./index.html">Inicio</a></li>
+                                    <li class="desplegable-link"><a href="./pages/nosotros.html">Nosotros</a></li>
+                                    <li class="desplegable-link"><a href="./pages/Nuestros servicios.html">Nuestros Servicios</a></li>
+                                    <li class="desplegable-link"><a href="./pages/contacto.html">Contacto</a></li>
+                                    <a href="https://api.whatsapp.com/send?phone=573002891319&text=!Hola%C2%A1%20Gracias%20por%20comunicarte%20con%20Pool%20Colombia%20Dise%C3%B1o%20%26%20Construcci%C3%B3n%2C%20queremos%20brindarte%20la%20mejor%20asesor%C3%ADa%20para%20hacer%20la%20piscina%20de%20tus%20sue%C3%B1os%20%C2%BFC%C3%B3mo%20podemos%20ayudarte%3F" target="_blank"><button class="button-asesoria">¿Buscas asesoría?
+                                        <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path id="arrow-icon1" ="evenodd" d="M0 9.20746C0 8.95701 0.101588 8.71682 0.282415 8.53973C0.463242 8.36264 0.708496 8.26315 0.964224 8.26315H17.7064L11.6376 2.32154C11.4565 2.14422 11.3548 1.90373 11.3548 1.65296C11.3548 1.4022 11.4565 1.16171 11.6376 0.98439C11.8186 0.807074 12.0642 0.707459 12.3203 0.707458C12.5763 0.707458 12.8219 0.807074 13.0029 0.98439L20.7167 8.53889C20.8065 8.6266 20.8778 8.73081 20.9264 8.84554C20.975 8.96026 21 9.08325 21 9.20746C21 9.33167 20.975 9.45466 20.9264 9.56938C20.8778 9.68411 20.8065 9.78831 20.7167 9.87603L13.0029 17.4305C12.8219 17.6078 12.5763 17.7075 12.3203 17.7075C12.0642 17.7075 11.8186 17.6078 11.6376 17.4305C11.4565 17.2532 11.3548 17.0127 11.3548 16.762C11.3548 16.5112 11.4565 16.2707 11.6376 16.0934L17.7064 10.1518H0.964224C0.708496 10.1518 0.463242 10.0523 0.282415 9.87519C0.101588 9.6981 0 9.45791 0 9.20746Z" fill="#4374be"/>
+                                        </svg>
+                                    </button></a>
+                                </ul>
+                                <a class="close" href="#">&times;</a>
+                            </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!---destokp navar-->
                     <ul class="navigation-var">
                         <li class="outline-permanet"><a href="./index.html">Inicio</a></li>
                         <li><a href="./pages/nosotros.html">Nosotros</a></li>
                         <li><a href="./pages/Nuestros servicios.html">Nuestros Servicios</a></li>
                         <li><a href="./pages/contacto.html">Contacto</a></li>
-                        <button class="button-asesoria">¿Buscas asesoría?
+                        <a href="https://api.whatsapp.com/send?phone=573002891319&text=!Hola%C2%A1%20Gracias%20por%20comunicarte%20con%20Pool%20Colombia%20Dise%C3%B1o%20%26%20Construcci%C3%B3n%2C%20queremos%20brindarte%20la%20mejor%20asesor%C3%ADa%20para%20hacer%20la%20piscina%20de%20tus%20sue%C3%B1os%20%C2%BFC%C3%B3mo%20podemos%20ayudarte%3F" target="_blank"><button class="button-asesoria">¿Buscas asesoría?
                             <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path id="arrow-icon1" ="evenodd" d="M0 9.20746C0 8.95701 0.101588 8.71682 0.282415 8.53973C0.463242 8.36264 0.708496 8.26315 0.964224 8.26315H17.7064L11.6376 2.32154C11.4565 2.14422 11.3548 1.90373 11.3548 1.65296C11.3548 1.4022 11.4565 1.16171 11.6376 0.98439C11.8186 0.807074 12.0642 0.707459 12.3203 0.707458C12.5763 0.707458 12.8219 0.807074 13.0029 0.98439L20.7167 8.53889C20.8065 8.6266 20.8778 8.73081 20.9264 8.84554C20.975 8.96026 21 9.08325 21 9.20746C21 9.33167 20.975 9.45466 20.9264 9.56938C20.8778 9.68411 20.8065 9.78831 20.7167 9.87603L13.0029 17.4305C12.8219 17.6078 12.5763 17.7075 12.3203 17.7075C12.0642 17.7075 11.8186 17.6078 11.6376 17.4305C11.4565 17.2532 11.3548 17.0127 11.3548 16.762C11.3548 16.5112 11.4565 16.2707 11.6376 16.0934L17.7064 10.1518H0.964224C0.708496 10.1518 0.463242 10.0523 0.282415 9.87519C0.101588 9.6981 0 9.45791 0 9.20746Z" fill="#4374be"/>
                             </svg>
-                        </button>
+                        </button></a>
                     </ul>
                 </nav>
             </div>
@@ -163,9 +195,19 @@
         </div>
 
         <div class="coments-container">
-            <div>
-
+            <div id="hcg-slider-1" class="hcg-slider">
+                <div class="hcg-slide-container">
+                <div class="hcg-slider-body">
+                    <a class="hcg-slides animated" style="display:flex">
+                        <img src="https://i.postimg.cc/D0msHZJG/Group-15.png" alt="Image 1">
+                    </a>
+                </div>
+                <a href="#" id="hcg-slide-prev">❮</a>
+                <a href="#" id="hcg-slide-next">❯</a>
             </div>
+            <div class="hcg-slide-dot-control"></div>
+            </div>
+            <img class="img-coments_icon" src="https://i.postimg.cc/2Svt3KPB/Group-49.png">
         </div>
     </main> 
 
@@ -229,4 +271,5 @@
     </footer> 
   
 </body>
+<script src="./scripts/index.js"></script>
 </html>

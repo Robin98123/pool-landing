@@ -1,0 +1,35 @@
+
+.main-text_container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.main-container h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #182e4f;
+    text-align: center;
+}
+
+.main-container p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #182e4f;
+    text-align: center;
+    line-height: 160%;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container img{
+    height: 500px;
+}

@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/navar-styles.css">
-    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/navar-responsive_styles.css">
+    <link rel="stylesheet" href="../css/footer-styles.css">
+    <link rel="stylesheet" href="../css/contact-styles.css">
+    <title>Nosotros</title>
 </head>
 <body>
 
@@ -12,29 +15,145 @@
 
         <!-- Navar y banner principal  -->
         
-        <div>
+        <div class="banner-principal">
             <span class="separated-top">.</span>
 
             <!-- navvar -->
 
             <div class="navar-content">
+
                 <nav class="navar">
                     <img src="../img/logo-withe.svg">
+
+                    <!---desplegable menu-->
+                  
+                    <div class="menu-lateral_container">
+                
+                        <a href="#popup1"><img src="../img/menu-icon.svg" id="icon-menu"></a>
+                        
+                        <div class="popup_contianer">
+                            <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <ul class="desplegable-link_container">
+                                    <li class="desplegable-link"><a href="./index.html">Inicio</a></li>
+                                    <li class="desplegable-link"><a href="./pages/nosotros.html">Nosotros</a></li>
+                                    <li class="desplegable-link"><a href="./pages/Nuestros servicios.html">Nuestros Servicios</a></li>
+                                    <li class="desplegable-link"><a href="./pages/contacto.html">Contacto</a></li>
+                                    <a href="https://api.whatsapp.com/send?phone=573002891319&text=!Hola%C2%A1%20Gracias%20por%20comunicarte%20con%20Pool%20Colombia%20Dise%C3%B1o%20%26%20Construcci%C3%B3n%2C%20queremos%20brindarte%20la%20mejor%20asesor%C3%ADa%20para%20hacer%20la%20piscina%20de%20tus%20sue%C3%B1os%20%C2%BFC%C3%B3mo%20podemos%20ayudarte%3F" target="_blank"><button class="button-asesoria">¿Buscas asesoría?
+                                        <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path id="arrow-icon1" ="evenodd" d="M0 9.20746C0 8.95701 0.101588 8.71682 0.282415 8.53973C0.463242 8.36264 0.708496 8.26315 0.964224 8.26315H17.7064L11.6376 2.32154C11.4565 2.14422 11.3548 1.90373 11.3548 1.65296C11.3548 1.4022 11.4565 1.16171 11.6376 0.98439C11.8186 0.807074 12.0642 0.707459 12.3203 0.707458C12.5763 0.707458 12.8219 0.807074 13.0029 0.98439L20.7167 8.53889C20.8065 8.6266 20.8778 8.73081 20.9264 8.84554C20.975 8.96026 21 9.08325 21 9.20746C21 9.33167 20.975 9.45466 20.9264 9.56938C20.8778 9.68411 20.8065 9.78831 20.7167 9.87603L13.0029 17.4305C12.8219 17.6078 12.5763 17.7075 12.3203 17.7075C12.0642 17.7075 11.8186 17.6078 11.6376 17.4305C11.4565 17.2532 11.3548 17.0127 11.3548 16.762C11.3548 16.5112 11.4565 16.2707 11.6376 16.0934L17.7064 10.1518H0.964224C0.708496 10.1518 0.463242 10.0523 0.282415 9.87519C0.101588 9.6981 0 9.45791 0 9.20746Z" fill="#4374be"/>
+                                        </svg>
+                                    </button></a>
+                                </ul>
+                                <a class="close" href="#">&times;</a>
+                            </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!---destokp navar-->
                     <ul class="navigation-var">
                         <li class="outline-permanet"><a href="../index.html">Inicio</a></li>
-                        <li><a href="./nosotros.html">Nosotros</a></li>
-                        <li><a href="./Nuestros servicios.html">Nuestros Servicios</a></li>
-                        <li><a href="./pages/contacto.html">Contacto</a></li>
-                        <button class="button-asesoria">¿Buscas asesoría?
+                        <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="../pages/Nuestros servicios.html">Nuestros Servicios</a></li>
+                        <li><a href="../pages/contacto.html">Contacto</a></li>
+                        <a href="https://api.whatsapp.com/send?phone=573002891319&text=!Hola%C2%A1%20Gracias%20por%20comunicarte%20con%20Pool%20Colombia%20Dise%C3%B1o%20%26%20Construcci%C3%B3n%2C%20queremos%20brindarte%20la%20mejor%20asesor%C3%ADa%20para%20hacer%20la%20piscina%20de%20tus%20sue%C3%B1os%20%C2%BFC%C3%B3mo%20podemos%20ayudarte%3F" target="_blank"><button class="button-asesoria">¿Buscas asesoría?
                             <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path id="arrow-icon1" ="evenodd" d="M0 9.20746C0 8.95701 0.101588 8.71682 0.282415 8.53973C0.463242 8.36264 0.708496 8.26315 0.964224 8.26315H17.7064L11.6376 2.32154C11.4565 2.14422 11.3548 1.90373 11.3548 1.65296C11.3548 1.4022 11.4565 1.16171 11.6376 0.98439C11.8186 0.807074 12.0642 0.707459 12.3203 0.707458C12.5763 0.707458 12.8219 0.807074 13.0029 0.98439L20.7167 8.53889C20.8065 8.6266 20.8778 8.73081 20.9264 8.84554C20.975 8.96026 21 9.08325 21 9.20746C21 9.33167 20.975 9.45466 20.9264 9.56938C20.8778 9.68411 20.8065 9.78831 20.7167 9.87603L13.0029 17.4305C12.8219 17.6078 12.5763 17.7075 12.3203 17.7075C12.0642 17.7075 11.8186 17.6078 11.6376 17.4305C11.4565 17.2532 11.3548 17.0127 11.3548 16.762C11.3548 16.5112 11.4565 16.2707 11.6376 16.0934L17.7064 10.1518H0.964224C0.708496 10.1518 0.463242 10.0523 0.282415 9.87519C0.101588 9.6981 0 9.45791 0 9.20746Z" fill="#4374be"/>
                             </svg>
-                        </button>
+                        </button></a>
                     </ul>
                 </nav>
             </div>
-
     </main>
+
+
+    <div class="contact-form_container">
+        <h2>¿Quieres contactar con nosotros?
+            <b>Te escribimos</b></h2>
+        <form class="form-container" action="https://formsubmit.co/robinson9802.1@gmail.com" method="POST">
+            <div class="input-group">
+                <label for="name">Nombre y Apellido</label>
+                <input type="text" name ="name" id="name" placeholder="Ingresa nombre y apellido">
+
+                <label for="phone">Telefono</label>
+                <input type="tel" name ="phone" id="phone" placeholder="ingresa número de teléfono">
+
+                <label for="email">Correo Electrónico</label>
+                <input type="email" name ="email" id="email" placeholder="Ejm: Email@pooldesing">
+
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols ="30" rows="" placeholder="Mensaje"></textarea>
+
+                <div class="form-txt">
+                    <a href="#">Politica de privacidad</a>
+                    <a href="#">Terminos y condiciones</a>
+                </div>
+
+                <input class="button-asesoria" type="submit" value="Enviar">
+            </div>
+
+        </form>
+    </div>
+
+    <footer>
+
+        <div class="footer-container">
+            <div class="footer-main">
+                <img class="img-pool" src="https://i.postimg.cc/W4Q3PJwG/pngwing-1.png">
+                <div class="register-mail_container">
+                    <h4>¿Quieres recibir nuestro <b>boletín</b> y <b>catálogo</b>?</h4>
+                    <p>Recíbelo directamente actualizado a tu correo registrándolo aquí</p>
+                        <div class="input-container">
+                            <input type="text" placeholder="Example@pooldesing.com">
+                            <button class="button-asesoria">enviar</button>
+                        </div>
+                </div>
+            </div>
+            <div class="navar-footercontainer">
+                <div class="navar-content_footer">
+                    <nav class="navar-footer">
+                        <ul class="navigation-var_footer">
+                            <li class="outline-permanet"><a href="./index.html">Inicio</a></li>
+                            <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                            <li><a href="./pages/Nuestros servicios.html">Nuestros Servicios</a></li>
+                            <li><a href="./pages/contacto.html">Contacto</a></li>
+                            <button class="button-footer">¿Buscas asesoría?
+                                <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path id="arrow-icon1" ="evenodd" d="M0 9.20746C0 8.95701 0.101588 8.71682 0.282415 8.53973C0.463242 8.36264 0.708496 8.26315 0.964224 8.26315H17.7064L11.6376 2.32154C11.4565 2.14422 11.3548 1.90373 11.3548 1.65296C11.3548 1.4022 11.4565 1.16171 11.6376 0.98439C11.8186 0.807074 12.0642 0.707459 12.3203 0.707458C12.5763 0.707458 12.8219 0.807074 13.0029 0.98439L20.7167 8.53889C20.8065 8.6266 20.8778 8.73081 20.9264 8.84554C20.975 8.96026 21 9.08325 21 9.20746C21 9.33167 20.975 9.45466 20.9264 9.56938C20.8778 9.68411 20.8065 9.78831 20.7167 9.87603L13.0029 17.4305C12.8219 17.6078 12.5763 17.7075 12.3203 17.7075C12.0642 17.7075 11.8186 17.6078 11.6376 17.4305C11.4565 17.2532 11.3548 17.0127 11.3548 16.762C11.3548 16.5112 11.4565 16.2707 11.6376 16.0934L17.7064 10.1518H0.964224C0.708496 10.1518 0.463242 10.0523 0.282415 9.87519C0.101588 9.6981 0 9.45791 0 9.20746Z" fill="#4374be"/>
+                                </svg>
+                            </button>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-container">
+            <div class="contact-info_container">
+                <div class="contact-info">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.5562 12.9062L16.1007 13.359C16.1007 13.359 15.0181 14.4355 12.0631 11.4972C9.10812 8.55901 10.1907 7.48257 10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.09304 7.33182 4.81071 10.7447 8.81536 14.7266C13.0621 18.9492 17.0468 19.117 18.6763 18.9651C19.1917 18.9171 19.6399 18.6546 20.0011 18.2954L21.4217 16.883C22.3806 15.9295 22.1102 14.2949 20.8833 13.628L18.9728 12.5894C18.1672 12.1515 17.1858 12.2801 16.5562 12.9062Z" fill="#26436F"></path> </g></svg>
+                    <p>Tel :. (601) 851 45693<br>
+                        Cel: 356 789 4523</p>
+                </div>
+                <div class="contact-info">
+                    <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#26436F" d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289l16,24 C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289C54.289,34.008,56,29.219,56,24 C56,10.746,45.254,0,32,0z M32,32c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S36.418,32,32,32z"></path> </g></svg>
+                    <p>Cra 26 # 74 - 89<br> 
+                        Bogotá Colombia</p>
+                </div>
+            </div>
+            <div class="logo-redesicons_container">
+                <img id="logo-color" src="../img/logo-color.svg">
+                <div class="social-icons_footer">
+                    <button><img  id="social-icon" src="../img/facebook logo.svg"></button>
+                    <button><img id="social-icon" src ="../img/twitter logo.svg"></button>
+                    <button><img  id="social-icon" src="../img/instagram logo.svg"/></button>
+                </div>
+            </div>
+        </div>
+
+    </footer>
     
 </body>
 </html>

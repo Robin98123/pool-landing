@@ -1,0 +1,114 @@
+
+
+
+#icon-menu{
+    height: 50px;
+}
+
+.popup_contianer{
+    position: relative;
+}
+  
+  .box {
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 100ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup{
+    display: flex;
+    padding: 50px;
+    background: rgba(38, 67, 111, 0.9);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 70%;
+    height: 300px;
+    position: relative;
+    transition: all 1s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .popup .close:hover {
+    color: #F3C75D;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+
+  .desplegable-link_container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .desplegable-link_container a{
+  text-decoration: none;
+    }
+
+  .desplegable-link_container li{
+    list-style: none;
+  }
+
+
+  .desplegable-link a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .desplegable-link a:hover{
+    color: #F3C75D;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+
+  @media (min-width: 1000px){
+    .menu-lateral_container{
+        display: none;
+    }
+  }

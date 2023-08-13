@@ -585,7 +585,36 @@ font-family: 'Raleway', sans-serif;
                 .coments-container{
                     background-color: #F3C75D;
                     width: 100%;
-                    height: 260px;
+                    height: 300px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 3rem;
+                }
+
+                .img-coments_icon{
+                    height: 200px;
+                }
+
+                @media (max-width: 929px) {
+                    .coments-container{
+                        height: 550px;
+                        flex-direction: column;
+                    }
+                }
+
+                @media (max-width: 500px){
+                    .img-coments_icon{
+                        height: 130px;
+                    }
+
+                    .coments-container{
+                        height: 450px ;
+                    }
+
+                    .navar img{
+                        width: 95px;
+                    }
                 }
 
 @media (max-width: 1341px) {
@@ -695,9 +724,6 @@ font-family: 'Raleway', sans-serif;
         height: 300px;
     }
 
-    .coments-container{
-        height: 200px;
-    }
 }
 
 @media (max-width: 1200px){
@@ -851,9 +877,6 @@ font-family: 'Raleway', sans-serif;
         height: 300px;
     }
 
-    .coments-container{
-        height: 200px;
-    }
 }
 
 @media (max-width: 500px){
@@ -1009,9 +1032,6 @@ font-family: 'Raleway', sans-serif;
         height: 250px;
     }
 
-    .coments-container{
-        height: 200px;
-    }
 }
 
 @media (min-width: 1400px) {
