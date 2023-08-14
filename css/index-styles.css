@@ -289,6 +289,10 @@
     cursor: pointer;
 }
 
+.whatsapp_link-a{
+    text-decoration: none;
+}
+
 
 .img-square1:hover{
     height: 230px;

@@ -33,3 +33,19 @@
 .main-container img{
     height: 500px;
 }
+
+@media (max-width: 1000px) {
+    .main-container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px) {
+    .main-container img{
+        height: 300px;
+    }
+
+    .main-text_container p{
+        flex-direction: column;
+    }
+}
